@@ -5,7 +5,7 @@ metadata:
   labels:
     app: flask-earthquake-app
 spec:
-  replicas: 3  # Number of replicas
+  replicas: 2  # Number of replicas
   selector:
     matchLabels:
       app: flask-earthquake-app
