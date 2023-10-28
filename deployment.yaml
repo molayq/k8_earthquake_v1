@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: flask-earthquake-app
-        image: 549955071813.dkr.ecr.eu-central-1.amazonaws.com/flask_earthquake_v1:latest
+        image: 549955071813.dkr.ecr.eu-central-1.amazonaws.com/flask_earthquake_v1:v1.0
         ports:
         - containerPort: 5001
